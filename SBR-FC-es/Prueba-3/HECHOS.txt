@@ -1,0 +1,10 @@
+7
+joven, FC=0.4
+exp2-3, FC=1
+condmas3horas, FC=1
+nosolo, FC=-1
+bebido, FC=0.5
+cond2-3horas, FC=-1
+expmas3, FC=-1
+Objetivo
+causante

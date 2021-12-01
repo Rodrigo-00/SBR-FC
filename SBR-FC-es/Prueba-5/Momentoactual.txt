@@ -1,0 +1,10 @@
+7
+conduccionmadrugada, FC=1
+nieva, FC=0.55
+horapunta, FC=-1
+previoadiafestivo, FC=1
+rebajas, FC=-1
+obras, FC=0.42
+diafestivo, FC=-1
+Objetivo
+congestionada

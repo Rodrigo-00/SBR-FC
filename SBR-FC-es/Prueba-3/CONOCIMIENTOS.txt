@@ -1,0 +1,8 @@
+7
+R1: Si  exp2-3 Entonces experimentado, FC=0.5
+R2: Si  expmas3 Entonces experimentado, FC=0.9
+R3: Si  cond2-3horas Entonces cansado, FC=0.5		
+R4: Si  condmas3horas Entonces cansado, FC=1	
+R5: Si  experimentado y nosolo Entonces causante, FC=-0.5	
+R6: Si  cansado Entonces causante, FC=0.5	
+R7: Si  joven y bebido Entonces causante, FC=0.7

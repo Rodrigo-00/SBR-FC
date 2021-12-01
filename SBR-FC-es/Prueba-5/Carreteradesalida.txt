@@ -1,0 +1,11 @@
+10
+R1: Si horapunta y previoadiafestivo Entonces congestionada, FC=0.95
+R2: Si conduccionmadrugada Entonces congestionada, FC=-0.65
+R3: Si conduccionmadrugada Entonces controlpolicial, FC=0.36		
+R4: Si horapunta Entonces controlpolicial, FC=-0.1
+R5: Si accidente Entonces congestionada, FC=0.6
+R6: Si diafestivo Entonces congestionada, FC=-0.4
+R7: Si nieva Entonces accidente, FC=0.2	
+R8: Si horapunta y rebajas Entonces congestionada, FC=0.9	
+R9: Si obras Entonces congestionada, FC=0.7
+R10: Si controlpolicial Entonces congestionada, FC=0.15

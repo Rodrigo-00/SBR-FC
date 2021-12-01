@@ -1,0 +1,31 @@
+Base de conocimientos que se emplea: CONOCIMIENTOS
+Base de hechos que se emplea: HECHOS
+Objetivo: causante
+
+Comenzamos el proceso de inferencia:
+-Combinación de la evidencia con la regla R1 (Caso 3): 
+FC(experimentado_R1) = 0.5 * max(0, 1) = 0.5
+-Combinación de la evidencia con la regla R2 (Caso 3): 
+FC(experimentado_R2) = 0.9 * max(0, -1) = 0
+-Combinación de las reglas, R1, R2 (Caso 2):
+FC(experimentado) = 0.5
+-Combinación de antecedentes de R5 (Caso 1):
+FC(experimentado and experimentado and nosolo) = -1
+-Combinación de la evidencia con la regla R5 (Caso 3): 
+FC(causante_R5) = -0.5 * max(0, -1) = -0
+-Combinación de la evidencia con la regla R3 (Caso 3): 
+FC(cansado_R3) = 0.5 * max(0, -1) = 0
+-Combinación de la evidencia con la regla R4 (Caso 3): 
+FC(cansado_R4) = 1 * max(0, 1) = 1
+-Combinación de las reglas, R3, R4 (Caso 2):
+FC(cansado) = 1
+-Combinación de la evidencia con la regla R6 (Caso 3): 
+FC(causante_R6) = 0.5 * max(0, 1) = 0.5
+-Combinación de antecedentes de R7 (Caso 1):
+FC(joven and joven and bebido) = 0.4
+-Combinación de la evidencia con la regla R7 (Caso 3): 
+FC(causante_R7) = 0.7 * max(0, 0.4) = 0.28
+-Combinación de las reglas, R5, R6, R7 (Caso 2):
+FC(causante) = 0.64
+
+causante se está dando con un grado de creencia de 0.64

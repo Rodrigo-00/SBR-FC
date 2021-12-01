@@ -1,0 +1,14 @@
+Para la ejecución del programa se debe de introducir por una terminal la dirección donde se encuentra el ejecutable SBR-FC.exe dentro del dispositivo. Como parámetros seguidamente separado por un espacio se debe indicar la dirección 
+del fichero que contiene la base de conocimientos. Por último y al igual que con la base de conocimientos se debe indicar la ruta del fichero portador de la base de hechos. Cabe destacar que cualquiera de los ficheros o el ejecutable
+se pueden indicar sin ruta si ejecutamos el programa desde el directorio en el que se encuentra. Los ficheros correspondientes a la base de conocimientos y la base de hechos deben ser ficheros de texto, el factor de certeza asociado 
+tanto a los hechos como a las reglas debe estar ente [-1,1]. Ambas bases se componen del siguiente formato:
+
+	-La base de conocimientos está compuesta por una primera línea que indica el número de reglas que contiene seguido de las reglas. Cada una de las reglas se encuentra en una línea distinta y contiene el formato
+	<<Identificador: Regla, FC=factor>> donde Regla contiene la palabra reservada Entonces para indicar el consecuente de la regla y las conjunciones reservadas <<y, o>> que se usan entre los antecedentes. En relación 
+	al Identificador este debe ser del tipo Ri donde i será el número de la regla.
+
+	-La base de hechos, al igual que la base de conocimientos contiene como primera línea el número de hechos que contiene seguido de los hechos en cada línea. El formato de cada línea queda de la forma <<hecho, FC=factor>> .
+	Para indicar el objetivo del programa se debe poner en la penúltima línea la palabra <<Objetivo>> y en la siguiente línea el hecho meta del que se quiere obtener el grado de certeza.
+
+El programa genera un fichero salida cuyo nombre será la unión de los nombres de la base de conocimientos y la base de hechos con extensión .txt. Este fichero contendrá en las dos primeras líneas el nombre de la base de conocimientos
+y la base de hechos empleada para el programa y en la siguiente línea el hecho objetivo. A continuación se mostrará el proceso de inferencia seguido hasta la obtención del factor de certeza del hecho meta que se indicará por último.
