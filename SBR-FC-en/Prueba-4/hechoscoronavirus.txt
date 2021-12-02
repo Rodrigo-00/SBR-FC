@@ -1,0 +1,11 @@
+8
+costorespirar, FC=-1
+15-30m, FC=1
+ultimas2sem, FC=1
+gradincidencia, FC=0.5
+cercanoamigable, FC=1
+gustoperdido, FC=1
+fiebre, FC=-1
+noultimas2sem, FC=-1
+Objetivo
+contagiado

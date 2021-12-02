@@ -1,0 +1,36 @@
+Base de conocimientos que se emplea: Carreteradesalida
+Base de hechos que se emplea: Momentoactual
+Objetivo: congestionada
+
+Comenzamos el proceso de inferencia:
+-Combinación de antecedentes de R1 (Caso 1):
+FC(horapunta and horapunta and previoadiafestivo) = -1
+-Combinación de la evidencia con la regla R1 (Caso 3): 
+FC(congestionada_R1) = 0.95 * max(0, -1) = 0
+-Combinación de la evidencia con la regla R2 (Caso 3): 
+FC(congestionada_R2) = -0.65 * max(0, 1) = -0.65
+-Combinación de la evidencia con la regla R7 (Caso 3): 
+FC(accidente_R7) = 0.2 * max(0, 0.55) = 0.11
+FC(accidente) = 0.11
+-Combinación de la evidencia con la regla R5 (Caso 3): 
+FC(congestionada_R5) = 0.6 * max(0, 0.11) = 0.066
+-Combinación de la evidencia con la regla R6 (Caso 3): 
+FC(congestionada_R6) = -0.4 * max(0, -1) = -0
+-Combinación de antecedentes de R8 (Caso 1):
+FC(horapunta and horapunta and rebajas) = -1
+-Combinación de la evidencia con la regla R8 (Caso 3): 
+FC(congestionada_R8) = 0.9 * max(0, -1) = 0
+-Combinación de la evidencia con la regla R9 (Caso 3): 
+FC(congestionada_R9) = 0.7 * max(0, 0.42) = 0.294
+-Combinación de la evidencia con la regla R3 (Caso 3): 
+FC(controlpolicial_R3) = 0.36 * max(0, 1) = 0.36
+-Combinación de la evidencia con la regla R4 (Caso 3): 
+FC(controlpolicial_R4) = -0.1 * max(0, -1) = -0
+-Combinación de las reglas, R3, R4 (Caso 2):
+FC(controlpolicial) = 0.36
+-Combinación de la evidencia con la regla R10 (Caso 3): 
+FC(congestionada_R10) = 0.15 * max(0, 0.36) = 0.054
+-Combinación de las reglas, R1, R2, R5, R6, R8, R9, R10 (Caso 2):
+FC(congestionada) = -0.438919
+
+congestionada se está dando con un grado de creencia de -0.438919

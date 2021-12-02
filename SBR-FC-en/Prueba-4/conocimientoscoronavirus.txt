@@ -1,0 +1,7 @@
+6
+R1: Si  menosde2m y 15-30m y ultimas2sem y llevarmasc Entonces contagiado, FC=0.2
+R2: Si  gustoperdido o costorespirar o fiebre Entonces sintomas, FC=1
+R3: Si  noultimas2sem Entonces contagiado, FC=-0.42		
+R4: Si  gradincidencia Entonces llevarmasc, FC=0.9
+R5: Si  cercanoamigable Entonces menosde2m, FC=0.5	
+R6: Si  sintomas y gradincidencia Entonces contagiado, FC=0.95	

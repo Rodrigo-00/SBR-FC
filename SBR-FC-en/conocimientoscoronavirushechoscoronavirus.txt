@@ -1,0 +1,30 @@
+Base de conocimientos que se emplea: conocimientoscoronavirus
+Base de hechos que se emplea: hechoscoronavirus
+Objetivo: contagiado
+
+Comenzamos el proceso de inferencia:
+-Combinación de la evidencia con la regla R5 (Caso 3): 
+FC(menosde2m_R5) = 0.5 * max(0, 1) = 0.5
+FC(menosde2m) = 0.5
+-Combinación de la evidencia con la regla R4 (Caso 3): 
+FC(llevarmasc_R4) = 0.9 * max(0, 0.5) = 0.45
+FC(llevarmasc) = 0.45
+-Combinación de antecedentes de R1 (Caso 1):
+FC(menosde2m and menosde2m and 15-30m and ultimas2sem and llevarmasc) = 0.45
+-Combinación de la evidencia con la regla R1 (Caso 3): 
+FC(contagiado_R1) = 0.2 * max(0, 0.45) = 0.09
+-Combinación de la evidencia con la regla R3 (Caso 3): 
+FC(contagiado_R3) = -0.42 * max(0, -1) = -0
+-Combinación de antecedentes de R2 (Caso 1):
+FC(gustoperdido or gustoperdido or costorespirar or fiebre) = 1
+-Combinación de la evidencia con la regla R2 (Caso 3): 
+FC(sintomas_R2) = 1 * max(0, 1) = 1
+FC(sintomas) = 1
+-Combinación de antecedentes de R6 (Caso 1):
+FC(sintomas and sintomas and gradincidencia) = 0.5
+-Combinación de la evidencia con la regla R6 (Caso 3): 
+FC(contagiado_R6) = 0.95 * max(0, 0.5) = 0.475
+-Combinación de las reglas, R1, R3, R6 (Caso 2):
+FC(contagiado) = 0.52225
+
+contagiado se está dando con un grado de creencia de 0.52225
