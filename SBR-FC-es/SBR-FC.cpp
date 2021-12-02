@@ -19,7 +19,7 @@ using namespace std;
 
 ofstream salida;    //fichero de salida
 
-struct regla{   //Estructura de un hecho
+struct regla{   //Estructura de una regla
     double fc;  //Factor de certeza de la regla
     int tipo = REGLAC;  //Por defecto el tipo de una regla es REGLAC
     string consecuente, id;
@@ -260,7 +260,7 @@ int main(int argc, char **argv)
 
         nuevoh->fc = atof(cadena.c_str());;   //convertimos a double
 
-        bh.push_back(*nuevoh);  //A�adimoms el nuevo hecho a la lista de hechos
+        bh.push_back(*nuevoh);  //A�adimos el nuevo hecho a la lista de hechos
 
         if(i == nreglasyhechos-1){  //En la �ltima iteraci�n leemos el objetivo
             BH >> c;
@@ -286,10 +286,7 @@ int main(int argc, char **argv)
     }
 
     //Borramos los hechos
-     for(ith = bh.begin();ith!=bh.end();ith++){
-        //nuevoh = &*ith;
-        delete nuevoh;
-    }
+     for(ith = bh.begin();ith!=bh.end();ith++) delete nuevoh;
 
     //Cerramos los ficheros abiertos
     BC.close();
