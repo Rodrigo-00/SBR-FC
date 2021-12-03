@@ -43,3 +43,4 @@ both the facts and the rules must be between [-1,1]. Both bases are composed of 
         
 The program generates an output file whose name will be the union of the names of the knowledge base and the fact base with a .txt extension. This file will contain in the first two lines the name of the knowledge base
 and the fact base used for the program and in the next line the objective fact. Next, the inference process followed until obtaining the certainty factor of the target event that will be indicated last will be shown. 
+
