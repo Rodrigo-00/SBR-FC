@@ -40,6 +40,6 @@ both the facts and the rules must be between [-1,1]. Both bases are composed of 
 
 	-The fact base, like the knowledge base, contains as the first line the number of facts it contains followed by the facts in each line. The format of each line is in the form <<hecho, FC=factor>> .
 	To indicate the objective of the program, put the word <<Objetivo>> in the penultimate line and in the next line the target fact from which the degree of certainty is to be obtained.
-
+        
 The program generates an output file whose name will be the union of the names of the knowledge base and the fact base with a .txt extension. This file will contain in the first two lines the name of the knowledge base
 and the fact base used for the program and in the next line the objective fact. Next, the inference process followed until obtaining the certainty factor of the target event that will be indicated last will be shown. 
