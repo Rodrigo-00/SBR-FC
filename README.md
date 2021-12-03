@@ -1,4 +1,4 @@
-1. Introducción:
+# 1. Introducción:
 Este repositorio contiene un SBR (sistema basado en reglas) que incorpora el conocimiento sobre 
 la incertidumbre expresado por factores de certeza (FC), por tanto se denomina SBR-FC. Este sistema 
 SBR-FC permite tomar decisiones en distintas situaciones expresadas. Por lo tanto, se diseña 
