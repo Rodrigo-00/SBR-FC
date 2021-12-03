@@ -4,7 +4,7 @@ la incertidumbre expresado por factores de certeza (FC), por tanto se denomina S
 SBR-FC permite tomar decisiones en distintas situaciones expresadas. Por lo tanto, se diseña 
 un motor de inferencia con encadenamiento hacia atrás adaptado al nuevo conocimiento disponible.
 
-2. Manual de uso:
+# 2. Manual de uso:
 Para la ejecución del programa se debe de introducir por una terminal la dirección donde se encuentra el ejecutable SBR-FC.exe dentro del dispositivo. Como parámetros seguidamente separado por un espacio se debe indicar la dirección 
 del fichero que contiene la base de conocimientos. Por último y al igual que con la base de conocimientos se debe indicar la ruta del fichero portador de la base de hechos. Cabe destacar que cualquiera de los ficheros o el ejecutable
 se pueden indicar sin ruta si ejecutamos el programa desde el directorio en el que se encuentra. Los ficheros correspondientes a la base de conocimientos y la base de hechos deben ser ficheros de texto, el factor de certeza asociado 
@@ -22,13 +22,13 @@ y la base de hechos empleada para el programa y en la siguiente línea el hecho 
 
 ------------------------------------------------------------------------------------
 
-1.Introduction:
+# 1.Introduction:
 This repository contains an SBR (rule-based system) that incorporates knowledge about
 the uncertainty expressed by certainty factors (FC), therefore it is called SBR-FC. This system
 SBR-FC allows decisions to be made in different expressed situations. Therefore, it is designed
 a backward chaining inference engine adapted to new available knowledge.
 
-2. User manual:
+# 2. User manual:
 To execute the program, the address where the SBR-FC.exe executable is located inside the device must be entered through a terminal. As parameters then separated by a space, the address must be indicated
 of the file that contains the knowledge base. Finally, and as with the knowledge base, the path of the file that carries the fact base must be indicated. It should be noted that any of the files or the executable
 They can be indicated without a path if we execute the program from the directory in which it is located. The files corresponding to the knowledge base and the fact base must be text files, the associated certainty factor
