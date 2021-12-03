@@ -16,7 +16,7 @@ tanto a los hechos como a las reglas debe estar ente [-1,1]. Ambas bases se comp
 
 	-La base de hechos, al igual que la base de conocimientos contiene como primera línea el número de hechos que contiene seguido de los hechos en cada línea. El formato de cada línea queda de la forma <<hecho, FC=factor>> .
 	Para indicar el objetivo del programa se debe poner en la penúltima línea la palabra <<Objetivo>> y en la siguiente línea el hecho meta del que se quiere obtener el grado de certeza.
-
+	
 El programa genera un fichero salida cuyo nombre será la unión de los nombres de la base de conocimientos y la base de hechos con extensión .txt. Este fichero contendrá en las dos primeras líneas el nombre de la base de conocimientos
 y la base de hechos empleada para el programa y en la siguiente línea el hecho objetivo. A continuación se mostrará el proceso de inferencia seguido hasta la obtención del factor de certeza del hecho meta que se indicará por último.
 
